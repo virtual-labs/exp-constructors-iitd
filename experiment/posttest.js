@@ -93,8 +93,8 @@
       question: "Q2. In which access should a constructor be defined, so that object of the class can be created in any function?",
       answers: {
         a: "Public",
-        b: "Protected"
-        c: "Private"
+        b: "Protected",
+        c: "Private",
         d: "Any access specifier will work"        
       },
       correctAnswer: "a"
@@ -113,20 +113,20 @@
       question: "Q4. In which access should a constructor be defined, so that object of the class can be created in any function?",
       answers: {
         a: "Public",
-        b: "Protected"
-        c: "Private"
+        b: "Protected",
+        c: "Private",
         d: "Any access specifier will work"        
       },
       correctAnswer: "a"
     },
 	
-	{
+	
       {
       question: "Q5. In which access should a constructor be defined, so that object of the class can be created in any function?",
       answers: {
         a: "Public",
-        b: "Protected"
-        c: "Private"
+        b: "Protected",
+        c: "Private",
         d: "Any access specifier will work"        
       },
       correctAnswer: "a"
