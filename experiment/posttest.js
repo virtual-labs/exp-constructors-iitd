@@ -80,11 +80,13 @@
 
   const myQuestions = [
     {
-      question: "Q1. Is there any compiler error in the below Java program?",
+      question: "Q1.  public class Test {}. What is the prototype of the default constructor?",
       
       answers: {
-        a: "Yes",
-        b: "No",
+        a: "public Test()",
+        b: "Test()",
+	c: "Test(void)",
+	d: "None of the above",
       },
       correctAnswer: "a"
     },
