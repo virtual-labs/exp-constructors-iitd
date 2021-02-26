@@ -110,24 +110,24 @@
     },
 	
 	{
-      question: "Q4. In which access should a constructor be defined, so that object of the class can be created in any function?",
+      question: "Q4. Which of the modifier can't be used for constructor_____",
       answers: {
-        a: "Public",
+        a: "Static",
         b: "Protected",
         c: "Private",
-        d: "Any access specifier will work"        
+        d: "Public"        
       },
       correctAnswer: "a"
     },
 	
 	
       {
-      question: "Q5. In which access should a constructor be defined, so that object of the class can be created in any function?",
+      question: "Q5. The implicit return type of a constructor is_____",
       answers: {
-        a: "Public",
-        b: "Protected",
-        c: "Private",
-        d: "Any access specifier will work"        
+        a: "A class object in which it is defined",
+        b: "Void",
+        c: "There is no return type",
+        d: "None of the above"        
       },
       correctAnswer: "a"
     },
