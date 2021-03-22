@@ -112,7 +112,7 @@
     },
 	
 	{
-      question: "Q4. Which of the modifier can't be used for constructor_____.",
+      question: "Q4. Which of the modifier can't be used for constructor_____?",
       answers: {
         a: "Static",
         b: "Protected",
