@@ -103,7 +103,7 @@
     },
 
     {
-      question: "Q3. Default constructor must be defined, if parameterized constructor is defined and the object is to be created without arguments",
+      question: "Q3. Default constructor must be defined, if parameterized constructor is defined and the object is to be created without arguments.",
       answers: {
         a: "False",
         b: "True"        
@@ -112,7 +112,7 @@
     },
 	
 	{
-      question: "Q4. Which of the modifier can't be used for constructor_____",
+      question: "Q4. Which of the modifier can't be used for constructor_____.",
       answers: {
         a: "Static",
         b: "Protected",
@@ -124,7 +124,7 @@
 	
 	
       {
-      question: "Q5. The implicit return type of a constructor is_____",
+      question: "Q5. The implicit return type of a constructor is_____.",
       answers: {
         a: "A class object in which it is defined",
         b: "Void",
