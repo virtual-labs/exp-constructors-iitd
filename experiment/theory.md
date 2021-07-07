@@ -5,12 +5,18 @@
 - Every time an object is created using the new() keyword, at least one constructor is called.
 - It calls a default constructor if there is no constructor available in the class. In such case, Java compiler provides a default constructor by default.
 
+---
+
 ### Why it is called constructor?
 It is called constructor because it constructs the values at the time of object creation. It is not necessary to write a constructor for a class. It is because java compiler creates a default constructor if your class doesn't have any.
+
+---
 
 ### Need of Constructor?
 Think of a Box. If we talk about a box class then it will have some class variables (say length, breadth, and height). But when it comes to creating its object(i.e Box will now exist in the computer’s memory), then can a box be there with no value defined for its dimensions. The answer is no. 
 So constructors are used to assign values to the class variables at the time of object creation, either explicitly done by the programmer or by Java itself (default constructor).
+
+---
 
 ### Rules for creating Java constructor
 There are three rules defined for the constructor.
@@ -18,12 +24,14 @@ There are three rules defined for the constructor.
 - A constructor must have no explicit return type
 - A constructor cannot be abstract, static, final, and synchronized
 
+---
+
 ### Types of Java constructors
 There are two types of constructors in Java:
 1.	Default constructor (No-argument constructor)
 2.	Parameterized constructor
 
-### Java Default Constructor or No-argument constructor
+### 1. Java Default Constructor or No-argument constructor
 - A constructor that has no parameter is known as the default constructor. 
 - If we don’t define a constructor in a class, then the compiler creates default constructor(with no arguments) for the class. 
 - If we write a constructor with arguments or no-arguments then the compiler does not create a default constructor. 
@@ -73,7 +81,7 @@ null
 0
 ```
 
-### Java Parameterized Constructor
+### 2. Java Parameterized Constructor
  - A constructor that has parameters is known as parameterized constructor. 
  - If we want to initialize fields of the class with your own values, then use a parameterized constructor.
  
@@ -119,6 +127,8 @@ class GFG
 ```sh
 Name :adam and Id :1
 ```
+
+---
 
 ### What is Constructor Overloading in Java?
 - In Java, a constructor is just like a method but without return type. It can also be overloaded like Java methods.
