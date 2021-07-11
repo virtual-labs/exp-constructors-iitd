@@ -23,12 +23,24 @@ Q4. We can declare constructor as private?<br>
 B No<br>
 
 
-Q5. Which of the following is/are true about constructors in Java?<br>
-A) Constructor name should be same as class name.<br>
-B) If you don't define a constructor for a class, a default parameter less constructor is automatically created by the compiler. <br>
-C) The default constructor calls super() and initializes all instance variables to default value like 0, null.<br>
-D) If we want to parent class constructor, it must be called in first line of constructor.<br>
-A1<br>
-B 1, 2<br>
-C 1, 2 and 3<br>
-**D 1, 2, 3 and 4**<br>
+Q5. What is the output of the below Java program with constructors?<br>
+
+```
+public class Constructor2
+{
+  int count=10;
+  Constructor2(int count)
+  {
+    System.out.println("Count=" + count);
+  }
+
+  public static void main(String[] args)
+  {
+    Constructor2 con = new Constructor2();
+  }
+}
+```
+A) Count=0<br>
+B) Count=10 <br>
+**C) Compiler error**<br>
+D) None of the above<br>
