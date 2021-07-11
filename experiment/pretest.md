@@ -14,9 +14,9 @@ D  Only String return type is allowed<br>
 
 Q3. What is default accessibility modifier of a default constructor?<br>
 A Public<br>
-B )private<br>
+B Private<br>
 **C Same as class accessibility modifier**<br>
-D default<br>
+D Default<br>
 
 Q4. We can declare constructor as private?<br>
 **A Yes**<br>
