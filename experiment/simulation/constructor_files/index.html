@@ -70,7 +70,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -105,11 +105,11 @@ function FunctionBack1(){
 }
 
 function createclass(){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br><br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br><br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// public class in java is a blueprint of objects which specifies properties and methods of objects belonging to that particular class.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingconstructor(classname){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining Constructor<br><br>public class <span id='first'>"+classname+"</span>{<br>public <input type='text' id='constructor' style='width:120px;height:24px;'> ( ) {<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining Constructor<br><br>public class <span id='first'>"+classname+"</span>{<br>public <input type='text' id='constructor' style='width:120px;height:24px;'> ( ) {<br>// A constructor is a block of codes similar to the method. It is called when an instance of the class is created.<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
 }
 
 function constructormsg(constructor,first){
@@ -117,7 +117,7 @@ function constructormsg(constructor,first){
 }
 
 function mainclass(msg,first,constructor){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Main function<br>public class <span id='first'>"+first+"</span> {<br>public <span id='constructor'>"+constructor+"</span>{<br>System.out.println(' <span id='msg'>"+msg+"</span> ') ;<br>}<br>public static void main(String[] args){<br><span id='sec'>"+first+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='sec'>"+first+"</span>();<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Main function<br>public class <span id='first'>"+first+"</span> {<br>public <span id='constructor'>"+constructor+"</span>{<br>System.out.println(' <span id='msg'>"+msg+"</span> ') ;<br>}<br>public static void main(String[] args){<br><span id='sec'>"+first+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='sec'>"+first+"</span>();<br> // Reference variable is used to point object/values.<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
 }
 
 function object(msg,first,constructor,obj){
